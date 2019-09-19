@@ -1,0 +1,201 @@
+h1 {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 6%;
+}
+
+div.head {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-around;
+  position: relative;
+}
+button#boton:hover {
+  background-color: #F0386B;
+  color: #fff1e9;
+}
+button#boton {
+  background-color: white;
+  position: absolute;
+  left: 26%;
+  top: 55%;
+  font-family: 'Inconsolata', sans-serif;
+  border-radius: 13px 13px;
+  padding: 1%;
+  border: 2px solid #F0386B;
+font-weight: bold;
+}
+
+
+hr {
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid #21252966;
+}
+
+div.lista ul {
+padding-inline-start: 0px;
+width: 100%;
+}
+
+
+div.lista ul li {
+  font-family: 'Inconsolata', monospace;
+  list-style: none;
+font-size: 70%;
+}
+
+div.lista ul li span {
+  font-family: 'Cookie', cursive;
+  font-size: 150%;
+}
+
+div.lista ul li i {
+  font-size: 70%;
+}
+div.lista button {
+  border: 2px solid #fb8691;
+  border-radius: 6px 6px;
+  font-family: 'Inconsolata', monospace;
+  padding: 1%;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 3%;
+}
+div.lista button:hover{
+ background-color: #F0386B;
+ color: #fff1e9;
+}
+
+div.leyenda {
+  font-family: 'Inconsolata', monospace;
+background-color: #FFD0D9;
+color: black;
+width: 55%;
+text-align: center;
+font-weight: lighter;
+transform: rotate(7deg);
+padding-top: 4%;
+height: 10%;
+margin-left: 6%;
+border-radius: 13px 13px;
+}
+div.leyenda h2 {
+  font-weight: bold;
+    font-size: 88%;
+}
+
+div.leyenda h3 {
+  width: 100%;
+    font-size: 70%;
+}
+
+div.header{
+  position: relative;
+}
+div.comprar img{
+width: 100%;
+height: 160px;
+}
+
+div.carousel-item{
+  height: 166.39px;
+}
+
+div.redes i:hover{
+  color: #ffb5b5;
+}
+div.redes{
+  position: absolute;
+  top: 30%;
+  left: 67%;
+  width: 100%;
+  animation-duration: 1s;
+}
+div.redes i{
+  color:#fb8691;
+  font-size: 150%;
+  margin: 2%;
+
+}
+div.marca{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+div.marca h2{
+  font-family: 'Raleway',sans-serif;
+font-size: 15px;
+width: 40%;
+letter-spacing: 1px;
+font-weight: 400;
+}
+@media (min-width: 940px){
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+  div.leyenda h2 {
+      font-size: 200%;
+  }
+
+  div.leyenda h3 {
+      font-size: 150%;
+  }
+div.leyenda{
+  margin-left: 0%;
+  padding-top: 1%;
+  width: 40%;
+}
+
+button#boton{
+  top:60%;
+}
+div.lista ul li {
+font-size: 120%;
+margin: -6%;
+}
+div.carousel-item{
+  height: 306.42px;
+}
+div.lista ul li span {
+  font-size: 250%;
+}
+
+div.lista ul li i {
+  font-size: 120%;
+}
+div.categorias{
+overflow: hidden;
+margin: 0 10%;
+}
+div.comprar{
+  position: relative;
+}
+div.comprar img{
+width: 100%;
+}
+
+div.comprar img{
+  height: 300px;
+}
+div.redes{
+  position: absolute;
+  top: 20%;
+  left: 67%;
+  width: 100%;
+  animation-duration: 1s;
+}
+div.redes i{
+  font-size: 300%;
+  margin: 2%;
+
+}
+div.marca h2{
+  font-size: 35px;
+}
+}

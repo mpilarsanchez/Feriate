@@ -1,0 +1,87 @@
+div.container{
+  width: 90%;
+}
+div.feria {
+  -webkit-box-shadow: 10px 11px 12px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 10px 11px 12px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 11px 12px 0px rgba(0, 0, 0, 0.32);
+margin:1%;
+padding-right: 0;
+padding-left: 0;
+background-color: white;
+
+}
+div.boton-header button:hover{
+    background-color: #ff6f8d;
+    color:white;
+}
+div.boton-header button{
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Inconsolata', sans-serif;
+  padding: 2%;
+  border: 2px solid #ff6f8d;
+color:#132743!important;
+}
+div.boton-header a{
+  text-decoration: none;
+}
+div.header-feria i{
+  color:#ff6f8d;
+}
+h2#titulo{
+  font-family: "Inconsolata", sans-serif;
+  font-size:150%;
+  color: #3e403f;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-top: 5px;
+
+}
+div.header-feria {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+div.descripcion {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+div.header-feria h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  padding-top: 4%;
+  font-size: 250%;
+  color:#407088;
+  text-align: center;
+}
+div.header-feria h5{
+width: 90%;
+margin: 0 auto;
+color: #132743;
+font-weight: normal;
+font-family: "Inconsolata",sans-serif;
+}
+
+div.cuerpo-feria img {
+  width: 100%;
+}
+div.cuerpo-feria{
+  width: 100%;
+}
+@media (min-width: 940px){
+div.cuerpo-feria img{
+height: 150px;
+}
+div.header-feria{
+  height: 150px;
+}
+div.container{
+  width: 90%;
+}
+}
