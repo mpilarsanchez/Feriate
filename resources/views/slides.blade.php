@@ -25,7 +25,7 @@
             <a href="/crearFeria"><button id="boton" type="button" name="button">Crea tu feria!</button></a>
           @else
             <a href="/login"><button id="boton" type="button" name="button">Crea tu feria!</button></a>
-          @endif;
+          @endif
           <div class="lista">
             <ul>
               <li><i class="fas fa-star-of-life"></i>

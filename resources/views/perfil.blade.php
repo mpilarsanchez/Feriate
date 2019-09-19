@@ -11,7 +11,7 @@ Perfil
             @if ($usuarioImagen == null)
               <img src="/images/userdefault.jpg" alt="" class="img-thumbnail">
             @else
-              <img src="storage/{{$usuario->imagen[0]['nombre']}}" alt="img-thumbnail">
+              <img src="/storage/{{$usuario->imagen[0]['nombre']}}" alt="img-thumbnail">
             @endif
    </div>
     <div class="datos">

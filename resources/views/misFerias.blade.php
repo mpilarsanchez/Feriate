@@ -1,5 +1,5 @@
 @extends('plantilla')
-  <link rel="stylesheet" href="/css/index.css"
+  <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/main.css">
 
 @section('titulo')
@@ -23,7 +23,7 @@ Mis Ferias
           <div class="feria col-md-4 col-lg-3">
           <div class="cuerpo-feria">
 
-        @if($ImagenFeria == null)
+        @if($feria->imagen[0] == null)
 
               <img src="/images/logo_feriate_deffault_ii.png" alt="">
             @else
