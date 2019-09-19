@@ -14,6 +14,7 @@
 Auth::routes(['verify'=> true]);
 
 Route::get('/home',function(){
+Artisan::call('storage:link');	
   return redirect('/index');
 })->middleware('verified');
  Route::get('/index', 'CategoriasContoller@index');
